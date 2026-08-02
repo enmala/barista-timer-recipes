@@ -1,0 +1,28 @@
+{
+  "name": "barista-timer-recipes",
+  "version": "1.0.0",
+  "description": "Catálogo público de recetas de extracción de café y té para Barista Timer",
+  "main": "scripts/build-catalog.js",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-catalog.js",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enmala/barista-timer-recipes.git"
+  },
+  "keywords": [
+    "coffee",
+    "recipes",
+    "barista",
+    "timer",
+    "v60",
+    "aeropress"
+  ],
+  "author": "enmala",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}

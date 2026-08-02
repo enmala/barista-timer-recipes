@@ -1,0 +1,54 @@
+{
+  "id": "prensa-francesa-hoffmann",
+  "name": "Prensa Francesa (Técnica Hoffmann)",
+  "method": "Prensa Francesa",
+  "author": "James Hoffmann",
+  "description": "Técnica sin turbulencia de James Hoffmann para lograr un café limpio y con gran cuerpo sin sedimentos amargos.",
+  "coffee_g": 30,
+  "grind_size": "Gruesa (Coarse)",
+  "water_temp_c": 95,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Vertido total",
+      "water_g": 500,
+      "duration_s": 30,
+      "instruction": "Vierte 500g de agua hirviendo sobre los 30g de café procurando mojar todo el grano."
+    },
+    {
+      "step_number": 2,
+      "title": "Infusión inicial",
+      "water_g": 0,
+      "duration_s": 210,
+      "instruction": "Coloca el émbolo en la parte superior sin bajarlo y deja infusionar durante 3:30."
+    },
+    {
+      "step_number": 3,
+      "title": "Romper costra",
+      "water_g": 0,
+      "duration_s": 0,
+      "instruction": "Remueve suavemente la capa de café flotante con una cuchara para que se asiente al fondo."
+    },
+    {
+      "step_number": 4,
+      "title": "Limpiar espuma",
+      "water_g": 0,
+      "duration_s": 0,
+      "instruction": "Retira la espuma y partículas flotantes de la superficie utilizando dos cucharas."
+    },
+    {
+      "step_number": 5,
+      "title": "Decantación final",
+      "water_g": 0,
+      "duration_s": 300,
+      "instruction": "Deja reposar sin mover la prensa durante 5 minutos para asentar todos los sedimentos."
+    },
+    {
+      "step_number": 6,
+      "title": "Servir",
+      "water_g": 0,
+      "duration_s": 0,
+      "instruction": "Inserta el filtro rozando la superficie sin bajar hasta el fondo y sirve lentamente."
+    }
+  ]
+}

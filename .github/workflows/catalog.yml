@@ -1,0 +1,52 @@
+name: Build & Validate Catalog
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Run unit tests and recipe validations
+        run: npm test
+
+      - name: Build catalog.json
+        run: npm run build
+
+      - name: Commit & Push updated catalog.json (Main branch only)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if [[ -n $(git status --porcelain catalog.json) ]]; then
+            echo "Se detectaron cambios en catalog.json. Actualizando..."
+            git add catalog.json
+            git commit -m "chore: update catalog.json [skip ci]"
+            git push
+          else
+            echo "catalog.json está actualizado. Sin cambios."
+          fi
