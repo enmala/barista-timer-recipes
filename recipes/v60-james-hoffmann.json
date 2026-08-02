@@ -1,0 +1,40 @@
+{
+  "id": "v60-james-hoffmann",
+  "name": "V60 (Técnica James Hoffmann)",
+  "method": "V60",
+  "author": "James Hoffmann",
+  "description": "Técnica definitiva de 30g de café por 500g de agua en V60 para lograr una taza dulce, clara y consistente.",
+  "coffee_g": 30,
+  "grind_size": "Medio-Fina",
+  "water_temp_c": 96,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Preinfusión y agitación",
+      "water_g": 60,
+      "duration_s": 45,
+      "instruction": "Vierte 60g de agua hirviendo (2x peso de café) y remueve el cono suavemente en círculos."
+    },
+    {
+      "step_number": 2,
+      "title": "Primer vertido continuo",
+      "water_g": 240,
+      "duration_s": 30,
+      "instruction": "Vierte agua suavemente en espiral hasta alcanzar 300g acumulados."
+    },
+    {
+      "step_number": 3,
+      "title": "Segundo vertido final",
+      "water_g": 200,
+      "duration_s": 30,
+      "instruction": "Vierte el agua restante suavemente hasta completar 500g totales."
+    },
+    {
+      "step_number": 4,
+      "title": "Remover costra y asentar",
+      "water_g": 0,
+      "duration_s": 45,
+      "instruction": "Con una cuchara remueve suavemente 1 vez a cada lado y da un ligero giro al cono para nivelar la cama de café."
+    }
+  ]
+}
