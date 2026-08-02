@@ -1,0 +1,40 @@
+{
+  "id": "sencha-japones-tradicional",
+  "name": "Té Verde Sencha Tradicional",
+  "method": "Sencha",
+  "author": "Tradicional Japonés",
+  "description": "Infusión delicada de té verde sencha en tetera Kyusu sirviendo en múltiples infusiones.",
+  "coffee_g": 4,
+  "grind_size": "Hoja Entera",
+  "water_temp_c": 70,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Colocar hojas",
+      "water_g": 0,
+      "duration_s": 0,
+      "instruction": "Coloca 4g de té verde Sencha en la tetera Kyusu o infusor."
+    },
+    {
+      "step_number": 2,
+      "title": "Primera Infusión",
+      "water_g": 200,
+      "duration_s": 60,
+      "instruction": "Vierte 200g de agua a 70°C y deja reposar en infusión durante 60 segundos."
+    },
+    {
+      "step_number": 3,
+      "title": "Servir primera taza",
+      "water_g": 0,
+      "duration_s": 15,
+      "instruction": "Vierte alternando entre tazas hasta vaciar la última gota para no sobre-infusionar."
+    },
+    {
+      "step_number": 4,
+      "title": "Segunda Infusión",
+      "water_g": 200,
+      "duration_s": 30,
+      "instruction": "Reutiliza las hojas virtiendo 200g de agua a 75°C e infusiona por 30 segundos."
+    }
+  ]
+}

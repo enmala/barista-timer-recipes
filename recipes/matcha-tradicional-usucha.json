@@ -1,0 +1,40 @@
+{
+  "id": "matcha-tradicional-usucha",
+  "name": "Matcha Tradicional (Usucha)",
+  "method": "Matcha",
+  "author": "Tradicional Japonés",
+  "description": "Preparación tradicional de Matcha Usucha tamizado y batido con Chasen hasta lograr espuma jade.",
+  "coffee_g": 2,
+  "grind_size": "Polvo Fino (Cernido)",
+  "water_temp_c": 80,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Tamizar Matcha",
+      "water_g": 0,
+      "duration_s": 0,
+      "instruction": "Tamiza 2g de Matcha con un colador fino directamente sobre el cuenco (Chawan) para deshacer grumos."
+    },
+    {
+      "step_number": 2,
+      "title": "Agregar agua a 80°C",
+      "water_g": 70,
+      "duration_s": 0,
+      "instruction": "Vierte 70g (70ml) de agua caliente a 80°C por el borde del cuenco."
+    },
+    {
+      "step_number": 3,
+      "title": "Batido con Chasen",
+      "water_g": 0,
+      "duration_s": 30,
+      "instruction": "Bate enérgicamente en patrón de W o M con el batidor de bambú (Chasen) hasta crear una capa densa de espuma verde jade."
+    },
+    {
+      "step_number": 4,
+      "title": "Servir",
+      "water_g": 0,
+      "duration_s": 0,
+      "instruction": "Pasa suavemente las puntas del Chasen para romper burbujas grandes y sirve inmediatamente."
+    }
+  ]
+}

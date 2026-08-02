@@ -1,0 +1,40 @@
+{
+  "id": "aeropress-espresso-style",
+  "name": "Aeropress Tipo Espresso",
+  "method": "Aeropress",
+  "author": "Barista Timer",
+  "description": "Extracción concentrada de cuerpo denso y alta intensidad para tomar solo o mezclar con leche.",
+  "coffee_g": 18,
+  "grind_size": "Fina",
+  "water_temp_c": 85,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Preparación",
+      "water_g": 0,
+      "duration_s": 0,
+      "instruction": "Coloca filtro de papel (o de metal), enjuaga con agua caliente y añade 18g de molienda fina."
+    },
+    {
+      "step_number": 2,
+      "title": "Vertido concentrado",
+      "water_g": 90,
+      "duration_s": 15,
+      "instruction": "Vierte 90g de agua a 85°C rápidamente."
+    },
+    {
+      "step_number": 3,
+      "title": "Agitación enérgica",
+      "water_g": 0,
+      "duration_s": 20,
+      "instruction": "Agita vigorosamente durante 20 segundos con la paleta de Aeropress."
+    },
+    {
+      "step_number": 4,
+      "title": "Prensado fuerte",
+      "water_g": 0,
+      "duration_s": 25,
+      "instruction": "Presiona el émbolo con firmeza constante sobre la taza durante 25 segundos."
+    }
+  ]
+}

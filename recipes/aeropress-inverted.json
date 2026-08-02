@@ -1,0 +1,47 @@
+{
+  "id": "aeropress-inverted",
+  "name": "Aeropress Invertida (15g)",
+  "method": "Aeropress",
+  "author": "Barista Timer",
+  "description": "Técnica invertida que permite una infusión completa prolongada sin filtración previa de agua.",
+  "coffee_g": 15,
+  "grind_size": "Medio-Fina",
+  "water_temp_c": 90,
+  "steps": [
+    {
+      "step_number": 1,
+      "title": "Ensamblar invertida",
+      "water_g": 0,
+      "duration_s": 0,
+      "instruction": "Coloca el émbolo en posición invertida (con la marca 4 abajo) y añade 15g de café molido."
+    },
+    {
+      "step_number": 2,
+      "title": "Preinfusión",
+      "water_g": 50,
+      "duration_s": 30,
+      "instruction": "Vierte 50g de agua a 90°C y agita durante 10 segundos."
+    },
+    {
+      "step_number": 3,
+      "title": "Llenado completo",
+      "water_g": 170,
+      "duration_s": 60,
+      "instruction": "Vierte agua hasta alcanzar 220g acumulados y deja infusionar por 60 segundos."
+    },
+    {
+      "step_number": 4,
+      "title": "Colocar tapa y voltear",
+      "water_g": 0,
+      "duration_s": 15,
+      "instruction": "Enjuaga el filtro de papel, enrosca la tapa, voltea cuidadosamente la Aeropress sobre la taza."
+    },
+    {
+      "step_number": 5,
+      "title": "Prensado",
+      "water_g": 0,
+      "duration_s": 30,
+      "instruction": "Presiona el émbolo suavemente durante 30 segundos hasta escuchar el siseo suave."
+    }
+  ]
+}

@@ -1,5 +1,92 @@
 [
   {
+    "id": "aeropress-espresso-style",
+    "name": "Aeropress Tipo Espresso",
+    "method": "Aeropress",
+    "author": "Barista Timer",
+    "description": "Extracción concentrada de cuerpo denso y alta intensidad para tomar solo o mezclar con leche.",
+    "coffee_g": 18,
+    "grind_size": "Fina",
+    "water_temp_c": 85,
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Preparación",
+        "water_g": 0,
+        "duration_s": 0,
+        "instruction": "Coloca filtro de papel (o de metal), enjuaga con agua caliente y añade 18g de molienda fina."
+      },
+      {
+        "step_number": 2,
+        "title": "Vertido concentrado",
+        "water_g": 90,
+        "duration_s": 15,
+        "instruction": "Vierte 90g de agua a 85°C rápidamente."
+      },
+      {
+        "step_number": 3,
+        "title": "Agitación enérgica",
+        "water_g": 0,
+        "duration_s": 20,
+        "instruction": "Agita vigorosamente durante 20 segundos con la paleta de Aeropress."
+      },
+      {
+        "step_number": 4,
+        "title": "Prensado fuerte",
+        "water_g": 0,
+        "duration_s": 25,
+        "instruction": "Presiona el émbolo con firmeza constante sobre la taza durante 25 segundos."
+      }
+    ]
+  },
+  {
+    "id": "aeropress-inverted",
+    "name": "Aeropress Invertida (15g)",
+    "method": "Aeropress",
+    "author": "Barista Timer",
+    "description": "Técnica invertida que permite una infusión completa prolongada sin filtración previa de agua.",
+    "coffee_g": 15,
+    "grind_size": "Medio-Fina",
+    "water_temp_c": 90,
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Ensamblar invertida",
+        "water_g": 0,
+        "duration_s": 0,
+        "instruction": "Coloca el émbolo en posición invertida (con la marca 4 abajo) y añade 15g de café molido."
+      },
+      {
+        "step_number": 2,
+        "title": "Preinfusión",
+        "water_g": 50,
+        "duration_s": 30,
+        "instruction": "Vierte 50g de agua a 90°C y agita durante 10 segundos."
+      },
+      {
+        "step_number": 3,
+        "title": "Llenado completo",
+        "water_g": 170,
+        "duration_s": 60,
+        "instruction": "Vierte agua hasta alcanzar 220g acumulados y deja infusionar por 60 segundos."
+      },
+      {
+        "step_number": 4,
+        "title": "Colocar tapa y voltear",
+        "water_g": 0,
+        "duration_s": 15,
+        "instruction": "Enjuaga el filtro de papel, enrosca la tapa, voltea cuidadosamente la Aeropress sobre la taza."
+      },
+      {
+        "step_number": 5,
+        "title": "Prensado",
+        "water_g": 0,
+        "duration_s": 30,
+        "instruction": "Presiona el émbolo suavemente durante 30 segundos hasta escuchar el siseo suave."
+      }
+    ]
+  },
+  {
     "id": "aeropress-standard",
     "name": "Aeropress Tradicional",
     "method": "Aeropress",
@@ -36,6 +123,46 @@
         "water_g": 0,
         "duration_s": 30,
         "instruction": "Presiona el émbolo suavemente hacia abajo durante 30 segundos."
+      }
+    ]
+  },
+  {
+    "id": "matcha-tradicional-usucha",
+    "name": "Matcha Tradicional (Usucha)",
+    "method": "Matcha",
+    "author": "Tradicional Japonés",
+    "description": "Preparación tradicional de Matcha Usucha tamizado y batido con Chasen hasta lograr espuma jade.",
+    "coffee_g": 2,
+    "grind_size": "Polvo Fino (Cernido)",
+    "water_temp_c": 80,
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Tamizar Matcha",
+        "water_g": 0,
+        "duration_s": 0,
+        "instruction": "Tamiza 2g de Matcha con un colador fino directamente sobre el cuenco (Chawan) para deshacer grumos."
+      },
+      {
+        "step_number": 2,
+        "title": "Agregar agua a 80°C",
+        "water_g": 70,
+        "duration_s": 0,
+        "instruction": "Vierte 70g (70ml) de agua caliente a 80°C por el borde del cuenco."
+      },
+      {
+        "step_number": 3,
+        "title": "Batido con Chasen",
+        "water_g": 0,
+        "duration_s": 30,
+        "instruction": "Bate enérgicamente en patrón de W o M con el batidor de bambú (Chasen) hasta crear una capa densa de espuma verde jade."
+      },
+      {
+        "step_number": 4,
+        "title": "Servir",
+        "water_g": 0,
+        "duration_s": 0,
+        "instruction": "Pasa suavemente las puntas del Chasen para romper burbujas grandes y sirve inmediatamente."
       }
     ]
   },
@@ -165,6 +292,86 @@
         "water_g": 0,
         "duration_s": 0,
         "instruction": "Inserta el filtro rozando la superficie sin bajar hasta el fondo y sirve lentamente."
+      }
+    ]
+  },
+  {
+    "id": "sencha-japones-tradicional",
+    "name": "Té Verde Sencha Tradicional",
+    "method": "Sencha",
+    "author": "Tradicional Japonés",
+    "description": "Infusión delicada de té verde sencha en tetera Kyusu sirviendo en múltiples infusiones.",
+    "coffee_g": 4,
+    "grind_size": "Hoja Entera",
+    "water_temp_c": 70,
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Colocar hojas",
+        "water_g": 0,
+        "duration_s": 0,
+        "instruction": "Coloca 4g de té verde Sencha en la tetera Kyusu o infusor."
+      },
+      {
+        "step_number": 2,
+        "title": "Primera Infusión",
+        "water_g": 200,
+        "duration_s": 60,
+        "instruction": "Vierte 200g de agua a 70°C y deja reposar en infusión durante 60 segundos."
+      },
+      {
+        "step_number": 3,
+        "title": "Servir primera taza",
+        "water_g": 0,
+        "duration_s": 15,
+        "instruction": "Vierte alternando entre tazas hasta vaciar la última gota para no sobre-infusionar."
+      },
+      {
+        "step_number": 4,
+        "title": "Segunda Infusión",
+        "water_g": 200,
+        "duration_s": 30,
+        "instruction": "Reutiliza las hojas virtiendo 200g de agua a 75°C e infusiona por 30 segundos."
+      }
+    ]
+  },
+  {
+    "id": "v60-james-hoffmann",
+    "name": "V60 (Técnica James Hoffmann)",
+    "method": "V60",
+    "author": "James Hoffmann",
+    "description": "Técnica definitiva de 30g de café por 500g de agua en V60 para lograr una taza dulce, clara y consistente.",
+    "coffee_g": 30,
+    "grind_size": "Medio-Fina",
+    "water_temp_c": 96,
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Preinfusión y agitación",
+        "water_g": 60,
+        "duration_s": 45,
+        "instruction": "Vierte 60g de agua hirviendo (2x peso de café) y remueve el cono suavemente en círculos."
+      },
+      {
+        "step_number": 2,
+        "title": "Primer vertido continuo",
+        "water_g": 240,
+        "duration_s": 30,
+        "instruction": "Vierte agua suavemente en espiral hasta alcanzar 300g acumulados."
+      },
+      {
+        "step_number": 3,
+        "title": "Segundo vertido final",
+        "water_g": 200,
+        "duration_s": 30,
+        "instruction": "Vierte el agua restante suavemente hasta completar 500g totales."
+      },
+      {
+        "step_number": 4,
+        "title": "Remover costra y asentar",
+        "water_g": 0,
+        "duration_s": 45,
+        "instruction": "Con una cuchara remueve suavemente 1 vez a cada lado y da un ligero giro al cono para nivelar la cama de café."
       }
     ]
   },
